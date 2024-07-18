@@ -31,15 +31,7 @@ pip install wandb # to use the WandB logger
 ```
 
 ### Datasets 
-In the benchmark there are two datasets: Pascal-VOC 2012 and COCO (object only).
-For the COCO dataset, we followed the COCO-stuff splits and annotations, that you can see [here](https://github.com/nightrome/cocostuff/).
-
 To download dataset, follow the scripts: `data/download_voc.sh`, `data/download_coco.sh` 
-
-To use the annotations of COCO-Stuff in our setting, you should preprocess it by running the provided script. \
-Please, remember to change the path in the script before launching it!
-`python data/coco/make_annotation.py`
-
 
 If your datasets are in a different folder, make a soft-link from the target dataset to the data folder.
 We expect the following tree:
