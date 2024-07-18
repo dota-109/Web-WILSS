@@ -54,7 +54,7 @@ After setting the dataset, you download the models pretrained on ImageNet using 
 Then, put the pretrained model in the `pretrained` folder.
 
 ### Run
-We provide different an example script to run the experiments (see `run.sh`, `coco.sh`).
+We provide different an example script to run the experiments (see `run.sh`).
 In the following, we describe the basic parameter to run an experiment.
 First, we assume that we have a command 
 ```
