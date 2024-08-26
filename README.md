@@ -47,6 +47,8 @@ data/voc/
 :warning: Bee sure not to override the current `voc` directory of the repository. 
 We suggest to link the folders inside the voc directory.
 
+### Web Data
+
 
 ### ImageNet Pretrained Models
 After setting the dataset, you download the models pretrained on ImageNet using [InPlaceABN](https://github.com/mapillary/inplace_abn).
