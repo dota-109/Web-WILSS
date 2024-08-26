@@ -48,8 +48,19 @@ data/voc/
 We suggest to link the folders inside the voc directory.
 
 ### Web Data
-
-
+We use pascal web data to preserve previous knowledge and class web data for learning new knowledge. They have been uploaded to Baidu Drive:
+**Pascal web data**
+```
+https://pan.baidu.com/s/1W19rDo9CWUU4_zJ3pFrSeQ?pwd=1234
+pswd: 1234
+```
+**Class web data**
+```
+https://pan.baidu.com/s/1W19rDo9CWUU4_zJ3pFrSeQ?pwd=1234
+pswd: 1234
+```
+For the usage of pascal web data, first we generate the new caption based on thoes web data, then a cosine similarity score is computed for selecting web images that are more similar to the original one. 
+Once finish the filtering, "generate_label" file and "generate_train_file" file would help us to train main model with selected web data.
 ### ImageNet Pretrained Models
 After setting the dataset, you download the models pretrained on ImageNet using [InPlaceABN](https://github.com/mapillary/inplace_abn).
 [Download](https://drive.google.com/file/d/1rQd-NoZuCsGZ7_l_X9GO1GGiXeXHE8CT/view) the ResNet-101 model (we only need it but you can also [download other networks](https://github.com/mapillary/inplace_abn) if you want to change it).
