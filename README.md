@@ -44,7 +44,7 @@ data/voc/
     split/
     ... other files 
 ```
-:warning: Bee sure not to override the current `voc` directory of the repository. 
+:warning: Be sure not to override the current `voc` directory of the repository. 
 We suggest to link the folders inside the voc directory.
 
 ### Web Data :bowtie:
@@ -70,7 +70,15 @@ For the usage of pascal web data, 1)first we generate the new caption based on t
 3): Run "generate_label.py" to get the pseudo annotation for web data and run "generate_train_file.py" for generating the path file.  
 4): Set "--replay_path" to your web data path and now you can train your model with web data.  
 
+***Selected web data for 10-10 and 15-5***  
+In case you have trouble in filtering web data, we also provide our selected data so that you can directly train your model without any filtering strategy.   
+15-5-ov:  
+[google drive](https://drive.google.com/file/d/1337cglt-abKHcGmEnfg3y4QuhRdwm3H8/view?usp=drive_link)
 
+10-10-ov:  
+[google drive](https://drive.google.com/file/d/1kmNIsWspDrWYSJT8L8llifboTen23T8S/view?usp=drive_link)
+
+*Usage*: Download the data, unizp and set the"--replay_path" to the path just unzipped.
 
 ### ImageNet Pretrained Models
 After setting the dataset, you download the models pretrained on ImageNet using [InPlaceABN](https://github.com/mapillary/inplace_abn).
