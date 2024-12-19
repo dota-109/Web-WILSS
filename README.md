@@ -57,7 +57,7 @@ pswd: 1234
 ```
 **Class web data**
 ```
-https://pan.baidu.com/s/1W19rDo9CWUU4_zJ3pFrSeQ?pwd=1234
+https://pan.baidu.com/s/1UeiL8cWjQvtWN68N2g00TA?pwd=1234 
 pswd: 1234
 ```
 
