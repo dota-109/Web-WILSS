@@ -72,11 +72,18 @@ For the usage of pascal web data, 1)first we generate the new caption based on t
 
 ***Selected web data for 10-10 and 15-5***  
 In case you have trouble in filtering web data, we also provide our selected data so that you can directly train your model without any filtering strategy.   
+
 15-5-ov:  
 [google drive](https://drive.google.com/file/d/1337cglt-abKHcGmEnfg3y4QuhRdwm3H8/view?usp=drive_link)
 
 10-10-ov:  
 [google drive](https://drive.google.com/file/d/1kmNIsWspDrWYSJT8L8llifboTen23T8S/view?usp=drive_link)
+
+15-5s-ov:  
+[google drive](https://drive.google.com/file/d/16TVotGvSQ8mfXv7aUPgA6ipp52pESFMA/view?usp=drive_link)
+
+10-10s-ov:  
+[google drive](https://drive.google.com/file/d/1eiESTddf0Vc9KgpYS4r7avi3QJ-O2EvR/view?usp=drive_link)
 
 *Usage*: Download the data, unizp and set the"--replay_path" to the path just unzipped.
 
