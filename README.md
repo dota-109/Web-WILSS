@@ -85,7 +85,7 @@ In case you have trouble in filtering web data, we also provide our selected dat
 10-10s-ov:  
 [google drive](https://drive.google.com/file/d/1eiESTddf0Vc9KgpYS4r7avi3QJ-O2EvR/view?usp=drive_link)
 
-coco: 
+coco:  
 [google drive](https://drive.google.com/file/d/1bh-J2cXG0rSRa6aWGsLnmcoHdJ0x_M4J/view?usp=drive_link)
 
 *Usage*: Download the data, unizp and set the"--replay_path" to the path just unzipped.
